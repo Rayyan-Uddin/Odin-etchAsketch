@@ -9,11 +9,19 @@
 </head>
 
 <body>
-    <div>
-        <h1>Etch A Sketch</h1>
-        <div id="container"></div>
-        <button onclick="createGrid()">Create Grid</button>
+    <div id="main">
+        <h1 style="text-align: center;">Etch A Sketch</h1>
+        <div id="container" style="border: 1px dotted black;"></div>
     </div>
+    <div id="buttons">
+        <button id="changeGrid" onclick="changeGrid()">Grid Size</button>
+        <button id="clearGrid" onclick="clearGrid()">Clear Grid</button>
+        <button id="defaultColor" onclick="defaultHover()">Black</button>
+        <button id="changeToRainbow" onclick="changeToRainbow()">RGB</button>
+        <button id="changeToSketch" onclick="changeToSketch()">Sketch</button>
+    </div>
+
+
     <script src="script.js"></script>
 </body>
 
