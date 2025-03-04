@@ -1,6 +1,6 @@
 // GLOBAL VARIABLES
 let divDefaultColor = ' rgb(255, 255, 255)';
-let divHoverColor = ' black';
+let divHoverColor = 'black';
 let isRaibowColor = false;
 let isSketchOn = false;
 let gridSize = 16;
