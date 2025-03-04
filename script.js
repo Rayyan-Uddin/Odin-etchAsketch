@@ -1,6 +1,10 @@
 // GLOBAL VARIABLES
 let divDefaultColor = ' rgb(255, 255, 255)';
+<<<<<<< HEAD
 let divHoverColor = ' black';
+=======
+let divHoverColor = 'black';
+>>>>>>> 54a4df5 (-Add buttons)
 let isRaibowColor = false;
 let isSketchOn = false;
 let gridSize = 16;
